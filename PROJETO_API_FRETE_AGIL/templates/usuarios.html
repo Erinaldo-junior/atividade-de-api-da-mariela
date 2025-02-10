@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frete Agil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Solicitar Frete</h2>
+        <input type="text" id="origem" placeholder="Endereço de origem">
+        <input type="text" id="destino" placeholder="Endereço de destino">
+        <button onclick="criarFrete()">Solicitar</button>
+
+        <h2>Lista de Fretes</h2>
+        <div id="listaFretes"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    
+</body>
+</html>
