@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; text-align: center; }
+.container { max-width: 600px; margin: auto; }
+input, button { margin: 5px; padding: 10px; width: 90%; }
+.frete-card { border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
